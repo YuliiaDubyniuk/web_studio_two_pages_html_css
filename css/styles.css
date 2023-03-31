@@ -1,24 +1,35 @@
 :root {
-  --body-text-color: #434455;
-  --title-overlay-color: #2e2f42;
-  --primary-brand-color: #4d5ae5;
-  --active-color: #404bbf;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
 }
-/* general styles */
+/* main styles */
 body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--body-text-color);
+  color: var(--slate);
+  background-color: var(--white);
 }
+/* reset */
 
-ul {
+.list {
   list-style: none;
 }
 
-a {
+.link {
+  font-style: normal;
   text-decoration: none;
   color: currentColor;
 }
@@ -32,84 +43,95 @@ a {
   text-transform: uppercase;
   align-items: center;
   letter-spacing: 0.03em;
-  color: var(--primary-brand-color);
-}
-.logo span:hover,
-.logo span:focus {
-  color: var(--active-color);
+  color: var(--iris);
 }
 
-.logo-header span {
-  color: #2e2f42;
+.link:hover,
+.link:focus {
+  color: var(--ocean);
+}
+
+.span-logo {
+  color: var(--navy-blue);
+}
+
+.span-logo:hover,
+.span-logo:focus {
+  color: var(--ocean);
 }
 
 .site-nav .link {
   font-weight: 500;
-  color: var(--body-text-color);
-}
-
-.link:hover,
-.link:focus .link:active {
-  color: var(--active-color);
-}
-
-.link.contact {
-  font-style: normal;
+  color: var(--navy-blue);
 }
 
 /* section hero */
 
-.hero {
-  background-color: var(--title-overlay-color);
+.hero,
+.footer {
+  background-color: var(--navy-blue);
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .order-btn {
   font: inherit;
   font-weight: 500;
-  color: #ffffff;
-  background-color: var(--primary-brand-color);
+  letter-spacing: 0.04em;
+  color: var(--white);
+  background-color: var(--iris);
   cursor: pointer;
 }
 
 .order-btn:hover,
 .order-btn:focus {
-  background-color: var(--active-color);
+  background-color: var(--ocean);
 }
 
-/* common styles for titles */
+/* styles for titles */
 .title {
   font-weight: 700;
   font-size: 36px;
   text-transform: capitalize;
-  color: var(--title-overlay-color);
+  text-align: center;
+  line-height: 1.11;
+  color: var(--navy-blue);
 }
 
 .subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--title-overlay-color);
+  color: var(--navy-blue);
+}
+/* section "team" */
+
+.team {
+  background-color: var(--cloud);
+}
+
+.list-item {
+  background-color: var(--white);
 }
 
 /* footer styles */
 
-.footer {
-  background-color: var(--title-overlay-color);
+.span-footer {
+  color: var(--cloud);
 }
 
-.logo-footer span {
-  color: #f4f4fd;
+.span-footer:hover,
+.span-footer:focus {
+  color: var(--ocean);
 }
 
 .footer-text {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 /* buttons on portfolio page*/
 
@@ -117,12 +139,12 @@ a {
   font: inherit;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: var(--primary-brand-color);
-  background: #f4f4fd;
+  color: var(--iris);
+  background: var(--cloud);
   cursor: pointer;
 }
 .button:hover,
 .button:focus {
-  color: #ffffff;
-  background: var(--active-color);
+  color: var(--white);
+  background: var(--ocean);
 }
