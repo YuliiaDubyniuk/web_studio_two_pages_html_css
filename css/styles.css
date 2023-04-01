@@ -46,6 +46,9 @@ body {
   color: var(--iris);
 }
 
+.contact {
+  font-style: normal;
+}
 .contact-link:hover,
 .contact-link:focus {
   color: var(--ocean);
@@ -121,7 +124,7 @@ body {
   background-color: var(--cloud);
 }
 
-.list-item {
+.list-item:first-child {
   background-color: var(--white);
 }
 
