@@ -15,9 +15,9 @@ A simple two‑page static website built with HTML and CSS, showcasing a web stu
    git clone https://github.com/YuliiaDubyniuk/web_studio_two_pages_html_css.git
 
 ## Project Structure
-/css/         — Stylesheets (general + page-specific)
+```/css/         — Stylesheets (general + page-specific)
 /images/      — Website assets (photos, icons)
 /fonts/       — Any custom fonts (optional)
 /js/          — JavaScript files (optional)
 /index.html   — Landing page
-/portfolio.html — Portfolio page
+/portfolio.html — Portfolio page```
