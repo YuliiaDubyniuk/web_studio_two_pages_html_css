@@ -16,8 +16,8 @@ A simple two‑page static website built with HTML and CSS, showcasing a web stu
 
 ## Project Structure
 ```
-/css/         — Stylesheets (general + page-specific)
 /images/      — Website assets
+/css/         — Stylesheets (general + page-specific)
 /index.html   — Landing page
 /portfolio.html — Portfolio page
 ```
