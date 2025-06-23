@@ -20,4 +20,4 @@ A simple two‑page static website built with HTML and CSS, showcasing a web stu
 /fonts/       — Any custom fonts (optional)
 /js/          — JavaScript files (optional)
 /index.html   — Landing page
-/portfolio.html — Portfolio (or "About") page
+/portfolio.html — Portfolio page
